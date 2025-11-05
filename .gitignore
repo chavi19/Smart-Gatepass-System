@@ -1,0 +1,67 @@
+# ================================
+# Node.js
+# ================================
+node_modules/
+npm-debug.log
+package-lock.json
+
+# ================================
+# Python
+# ================================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.venv/
+.env
+*.log
+
+# ================================
+# Arduino / IoT (Raspberry Pi)
+# ================================
+*.hex
+*.ino.cpp
+build/
+*.elf
+*.bin
+*.o
+*.out
+# Compiled Python files or camera cache
+*.so
+*.jpg
+*.jpeg
+*.png
+*.mp4
+# Backup or temp files
+*.bak
+*.swp
+# System configs (store locally, not on GitHub)
+boot/
+root/
+etc/
+var/
+tmp/
+# Ignore Raspberry Pi specific files
+*.deb
+*.img
+*.iso
+
+# ================================
+# Environment & Logs
+# ================================
+.env
+*.log
+logs/
+debug.log
+
+# ================================
+# VS Code / IDE Settings
+# ================================
+.vscode/
+.idea/
+
+# ================================
+# OS Files
+# ================================
+Thumbs.db
+.DS_Store
